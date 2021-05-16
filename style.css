@@ -1,69 +1,103 @@
-h1{
-position: absolute;
-width: 399px;
-height: 112px;
-left: 182px;
-top: 33px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 56px;
-
-color: #000000;
+body {
+    font-family: sans-serif;
+    background-color: black;
 }
+
+header img {
+    padding-left: 80px;
+
+}
+
 header {
-height: 167px;
-margin-left: 0px;
-background: #A40004;
-}
-header img{
-padding: 32px;
-width: 86px;
-height: 85px;
-left: 25px;
-top: 60px;
-}
-main{
-height:300px;
-left: 0px;
-background: #53026E;
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center
 }
 
-.rectangle{
-color: black;
-width: 188px;
-background: #008400;
-border: 3px dashed #000000;
-padding: 5px;
-padding-right: 20px;
-float: left;
+.button {
+    background-color: #36BBCE;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-right: 80px;
+    height: 30px;
+    width: 100px;
+}
 
-position: absolute;
-left: 50px;
-top: 188px;
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
 }
-.rectangle p{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
 
-color: #000000;
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
 }
-footer{
-    background-color:#53026E;
-    left: 0px;
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
 }
-footer img{
-width: 950px;
-padding-left:0px;
-margin-left: 0px;
+
+p {
+    font-size: 24px;
 }
-body{
-    background-color:#53026E ;
-    padding-left:0px;
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    max-width: 1100px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #476DD5;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: #062270;
+    padding: ;
+    display: flex;
+}
+
+footer a {
+    margin-left: 50px;
+}
+
+footer p{
+    font-size: 24px;
+    margin-left: 185px;
+    color: white;
+}
+
+a{
+    display: block;
+}
+.ph{
+    width: 100%;
+    min-height: 270px;
 }
